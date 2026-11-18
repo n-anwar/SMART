@@ -20,7 +20,7 @@ ui <- fluidPage(
   "))
   ),
   
-  titlePanel("Impact of training on bone damage"),
+  titlePanel("SMART: Simulation of Musculoskeletal Adaptation for Racehorse Training"),
   sidebarLayout(
     sidebarPanel(
       tabsetPanel(
