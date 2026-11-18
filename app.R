@@ -140,7 +140,7 @@ ui <- fluidPage(
                  # hr(),
                  # h4("Race-fit",style = "color:#ebc775; font-weight:bold;"),
                  # wellPanel(
-                 numericInput("slow_work_dist_pr_day", tags$span("Distance during slow workout", style = "color:#6a329f;"), value = 2000, min = 0, step = 100),
+                 numericInput("slow_work_dist_pr_day", tags$span("Distance per day during slow workout", style = "color:#6a329f;"), value = 2000, min = 0, step = 100),
                  # h4("Slow workout",style = "color:#33b5ff; font-weight:bold;"),
                  # numericInput("slow_work_dist_pr_day", tags$span("Distance per day  (meter) during slow workout", style = "color:#6a329f;"), value = 2000, min = 0, step = 100),
                  # ),
